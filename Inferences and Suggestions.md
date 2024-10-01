@@ -14,6 +14,7 @@ EDA Key Insights:
 8. Most customers maintain low balances and have low cash advances, low credit limits and low minimum payments and also make low purchases.
 
 CLUSTERING:
+
 K-means Insights:
 PCA applied data gives better clustering with key insights as:
 1. Customers who refrain from making much purchases, prefer cash advances, have decent balance values and moderate credit limit.
