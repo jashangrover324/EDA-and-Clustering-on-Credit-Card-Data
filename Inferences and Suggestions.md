@@ -42,6 +42,7 @@ Overall:
 2. Moderate Category (Upper Middle Class): Cluster 4
 3. Low Category (Middle Class): Cluster 3
 ____________
+### **SUGGESTIONS**
 
 CONSIDERING K-MEANS CLUSTERING IS MOST PRACTICAL AMONG THE THREE, HERE ARE SUGGESTIONS FOR DIFFERENT CUSTOMER SEGMENTS:
 1. Educate customers to get closer touch with the credit card by providing budgeting and using cash advances resources. Use promotions that allow them to earn rewards for regular purchases, so they do not look at the card as just an availability of taking cash advances.
