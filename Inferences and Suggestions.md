@@ -1,9 +1,9 @@
-Objectives:
+### **OBJECTIVES:**
 1. EDA to find out customer behaviour
 2. Clustering to find out different customer segments
 3. Suggesting strategies to improve customer experience bases on these segments
-
-EDA Key Insights:
+______________
+### **EDA Key Insights:**
 1. Large proportion of customers have low balances and low purchasing activities. However, a small subset of customers shows higher engagement, either through purchases or cash advances.
 2. Credit limits and payment behaviors are skewed towards smaller values, with a few customers having high limits and making large payments.
 3. Many customers are frequent in maintaining balance and don’t frequently make one-off purchases or installment purchases, though a few high-frequency users are present.
@@ -13,31 +13,35 @@ EDA Key Insights:
 7. Balance is somewhat correlated to cash advances (0.55), credit limit (0.52) and minimum payments (0.58). However, cash advances, credit limit and minimum payments have weak correlation with each other.
 8. Most customers maintain low balances and have low cash advances, low credit limits and low minimum payments and also make low purchases.
 
-CLUSTERING:
+________________
+### **CLUSTERING:**
 
-K-means Insights:
-PCA applied data gives better clustering with key insights as:
+***K-Means Insights (PCA Applied Data):***
+
 1. Customers who refrain from making much purchases, prefer cash advances, have decent balance values and moderate credit limit.
 2. Customers with highest purchases, credit limit and decent balance values.
 3. Customers with moderate values of balance, purchases, credit limit and payments.
 4. Customers with highest balance and cash advances, high credit limit but less purchases.
 5. Customers with low values everywhere.
+
 Overall:
 1. High Category (Rich): Cluster 2, Cluster 4
 2. Moderate Category (Upper Middle Class): Cluster 1, Cluster 3
 3. Low Category (Middle Class): Cluster 5
+<br/><br/>
 
 
-Hierarichal Clustering Insights:
+***Hierarichal Clustering Insights (PCA Applied Data):***
 1. Customers having high credit limits, high balance values, heavily do cash advances but make little purchases.
 2. Customers having highest credit limits and make purchases heavily.
 3. Customers having low values of balance, purchases and credit limit.
 4. Customers who purchase decently, have decent credit limit but do not prefer cash advances.
+
 Overall:
 1. High Category (Rich): Cluster 1, Cluster 2
 2. Moderate Category (Upper Middle Class): Cluster 4
 3. Low Category (Middle Class): Cluster 3
-
+____________
 
 CONSIDERING K-MEANS CLUSTERING IS MOST PRACTICAL AMONG THE THREE, HERE ARE SUGGESTIONS FOR DIFFERENT CUSTOMER SEGMENTS:
 1. Educate customers to get closer touch with the credit card by providing budgeting and using cash advances resources. Use promotions that allow them to earn rewards for regular purchases, so they do not look at the card as just an availability of taking cash advances.
